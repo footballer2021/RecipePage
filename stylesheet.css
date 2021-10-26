@@ -1,0 +1,175 @@
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 834px) {
+  .post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.post .image-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-height: 700px;
+}
+
+.post .image-wrapper .dish-image {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+}
+
+.post .recipe {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.post .recipe__inner_margin {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 834px) {
+  .post .recipe__inner_margin {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.post .recipe__name {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.post .recipe__name_margin {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 834px) {
+  .post .recipe__name {
+    text-align: center;
+  }
+}
+
+.post .recipe__guide {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 464px;
+}
+
+@media (max-width: 834px) {
+  .post .recipe__guide {
+    max-width: none;
+  }
+}
+
+.post .recipe .item {
+  font-size: 20px;
+  line-height: 1.75;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.post .recipe .item_margin {
+  margin-top: 40px;
+}
+
+.post .recipe .table_margin {
+  margin-top: 15px;
+}
+
+.post .recipe .table__col-first {
+  width: 100%;
+  line-height: 2.25;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.post .recipe .table__col-second {
+  white-space: nowrap;
+  text-align: end;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.post .recipe .table__col-one {
+  min-width: 26px;
+}
+
+.post .recipe .table__col-two {
+  width: 100%;
+  line-height: 2.25;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+li {
+  margin-left: 17.8px;
+}
+
+.footer {
+  padding-top: 60px;
+}
+
+.footer .tolist {
+  display: block;
+  background: none;
+  width: 232px;
+  height: 57px;
+  font-size: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.footer .link {
+  width: 183.5px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .link .insta, .footer .link .twitter, .footer .link .facebook {
+  text-decoration: underline;
+  line-height: 1.20833;
+}
+
+.footer .link .insta {
+  letter-spacing: 0.09px;
+}
+
+.footer .link .twitter {
+  letter-spacing: 0.165px;
+}
+
+.footer .link .facebook {
+  letter-spacing: 0.1px;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
